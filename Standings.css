@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: #15151e;
+    font-family: sans-serif;
+    color: white;
+}
+
+.red-header {
+    background-color: #e10600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 50px;
+    color: white;
+}
+
+.logo { height: 100px; }
+
+.store-box {
+    background: white;
+    color: black;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.secondary-nav {
+
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    position: absolute;
+    top: 65px;
+    right: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.active-nav { border-bottom: 2px solid red; padding-bottom: 3px; }
+
+
+.main-content { 
+    display: flex; 
+    justify-content: center; 
+    padding: 40px 0; 
+}
+.standings-card { 
+    background: black; 
+    color: white; 
+    width: 650px; 
+    border: 4px solid #000; 
+}
+.card-title { 
+    font-size: 50px; 
+    font-weight: 900; 
+    text-align: center; 
+    padding: 20px; 
+    border-bottom: 4px solid white; }
+
+.tab-container { 
+    display: flex; 
+    border-bottom: 2px solid white; 
+}
+.tab { 
+    flex: 1; 
+    text-align: center; 
+    padding: 12px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    color: white; }
+
+.tab.active { color: #f40; }
+
+.table-header { 
+    display: flex; 
+    background: #000;
+    border-bottom: 3px solid white; 
+    font-size: 13px; 
+    font-weight: bold; 
+}
+
+.table-row { 
+    display: flex; 
+    border-bottom: 2px solid white; 
+    font-size: 12px; 
+    font-weight: bold; 
+}
+
+.col-name, .name { 
+    flex: 2; 
+    padding: 12px; 
+    text-align: left; 
+}
+
+.col-data, .data { 
+    flex: 1; 
+    text-align: center; 
+    padding: 12px; 
+    border-left: 2px solid white;
+}
+
+.table-body { 
+    max-height: 450px; 
+    overflow-y: auto; 
+}
+
+.back-link { 
+    color: #949498; 
+    text-decoration: none; 
+    font-size: 13px; font-weight: bold; 
+    display: block; margin-bottom: 30px;
+    top: 100px;  
+}

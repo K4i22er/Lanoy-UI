@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Wiki</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="red-header">
+        <img src="./download (1).png" class="logo">
+        <a href="https://f1store4.formula1.com/en/" class="store-box">STORE</a>
+    </div>
+
+    <div class="hero">
+        <div class="nav-links">
+            <a href="Circuits.html">CIRCUITS</a>
+            <a href="Schedule.html">SCHEDULE</a>
+            <a href="Standings.html">STANDINGS</a>
+            <a href="Teams.html">TEAMS</a>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="white-text">START YOUR</h1>
+            <h1 class="grey-text">ENGINES</h1>
+            <img src="./image.jpg" alt="F1 Background" class="background-image">
+        </div>
+
+        <div class="race-card">
+            <div class="checkered-top">
+                <p>NEXT F1 RACE</p>
+                <h3>JAPANESE GP</h3>
+            </div>
+            <div class="card-bottom">
+                <p>MARCH 29</p>
+                <div class="white-img-box">
+                    <img src="./Circuit_Suzuka.png" alt="Suzuka Track" width="200">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <div class="tabs">
+            <span id="btnD" class="tab active" onclick="showDrivers()">DRIVERS</span>
+            <span id="btnT" class="tab" onclick="showTeams()">TEAMS</span>
+        </div>
+
+        <div class="slider-wrapper">
+            <button class="arrow" onclick="moveLeft()"> < </button>
+            
+            <div class="view-window">
+                <div class="flex-track" id="mainTrack">
+                    <div class="item-card">
+                        <p>George</p>
+                        <h2>RUSSELL</h2>
+                        <img src="./george.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Andrea Kimi</p>
+                        <h2>ANTONELLI</h2>
+                        <img src="./kimi.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Charles</p>
+                        <h2>LECLERC</h2>
+                        <img src="./charles.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Lewis</p>
+                        <h2>HAMILTON</h2>
+                        <img src="./hamilton.png" width="150">
+                    </div>
+                     <div class="item-card">
+                        <p>Max</p>
+                        <h2>VERSTAPPEN</h2>
+                        <img src="./max.png" width="150">
+                    </div>
+                     <div class="item-card">
+                        <p>Isack</p>
+                        <h2>HADJAR</h2>
+                        <img src="./isack.png" width="150">
+                    </div>
+                     <div class="item-card">
+                        <p>Lando</p>
+                        <h2>NORRIS</h2>
+                        <img src="./lando.png" width="150">
+                    </div>
+                     <div class="item-card">
+                        <p>Oscar</p>
+                        <h2>PIASTRI</h2>
+                        <img src="./piastri.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Fernando</p>
+                        <h2>ALONSO</h2>
+                        <img src="./alonso.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Lance</p>
+                        <h2>STROLL</h2>
+                        <img src="./stroll.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Valtteri</p>
+                        <h2>BOTTAS</h2>
+                        <img src="./bottas.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Sergio</p>
+                        <h2>PEREZ</h2>
+                        <img src="./perez.png" width="150">
+                    </div>
+                    <div class="item-card">
+                        <p>Pierre</p>
+                        <h2>GASLY</h2>
+                        <img src="./gasly.png" width="150">
+                    </div>     
+                    <div class="item-card">
+                        <p>Franco</p>
+                        <h2>COLAPINTO</h2>
+                        <img src="./Franco.png" width="150">
+                    </div>   
+                     <div class="item-card">
+                        <p>Carlos</p>
+                        <h2>SAINZ</h2>
+                        <img src="./carlos.png" width="150">  
+                    </div>          
+                     <div class="item-card">
+                        <p>Alexander</p>
+                        <h2>ALBON</h2>
+                        <img src="./albon.png" width="150">  
+                    </div>  
+                     <div class="item-card">
+                        <p>Liam</p>
+                        <h2>LAWSON</h2>
+                        <img src="./liam.png" width="150">  
+                    </div>   
+                     <div class="item-card">
+                        <p>Arvid</p>
+                        <h2>LINBLAD</h2>
+                        <img src="./linblad.png" width="150">  
+                    </div>   
+                     <div class="item-card">
+                        <p>Esteban</p>
+                        <h2>OCON</h2>
+                        <img src="./ocon.png" width="150">  
+                    </div>   
+                     <div class="item-card">
+                        <p>Oliver</p>
+                        <h2>BEARMAN</h2>
+                        <img src="./haas.png" width="150">  
+                    </div> 
+                     <div class="item-card">
+                        <p>Nico</p>
+                        <h2>HULKENBERG</h2>
+                        <img src="./nico.png" width="150">  
+                    </div>    <div class="item-card">
+                        <p>Gabriel</p>
+                        <h2>BORTOLETO</h2>
+                        <img src="./bortoleto.png" width="150">  
+                    </div>                              
+                </div>
+            </div>
+
+            <button class="arrow" onclick="moveRight()"> > </button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

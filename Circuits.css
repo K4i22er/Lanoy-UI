@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: #15151e;
+    font-family: sans-serif;
+    color: white;
+}
+
+.red-header {
+    background-color: #e10600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 50px;
+}
+.logo { height: 100px; }
+.store-box { background: white; color: black; padding: 15px 30px; font-weight: bold; text-decoration: none; }
+
+
+.page-wrapper {
+    padding: 60px 50px 40px; 
+    position: relative;
+}
+.nav-links {
+    position: absolute;
+    top: 15px; 
+    right: 50px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.active-nav { border-bottom: 2px solid red; padding-bottom: 3px; }
+
+.back-link { 
+    color: #949498; 
+    text-decoration: none; 
+    font-size: 13px; font-weight: bold; 
+    display: block; margin-bottom: 30px; 
+}
+
+.content-center { display: flex; justify-content: center; width: 100%; }
+
+.circuit-card { 
+    background: black; 
+    width: 100%; 
+    max-width: 1000px; 
+    padding: 20px;
+    border: 4px solid #000;
+}
+
+.circuit-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.circuit-col { flex: 1; }
+
+.circuit-item {
+    display: flex;
+    align-items: center;
+    background: #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.circuit-item img {
+    width: 120px;
+    margin-right: 20px;
+    background: white; 
+    padding: 5px;
+}
+
+.circuit-item h3 { margin: 0; font-size: 24px; }
+.circuit-item p { margin: 5px 0 0; color: #949498; font-size: 12px; }

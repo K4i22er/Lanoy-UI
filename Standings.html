@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Standings</title>
+    <link rel="stylesheet" href="Standings.css">
+</head>
+<body>
+
+    <div class="red-header">
+        <img src="./download (1).png" class="logo" alt="F1 Logo">
+        <a href="https://f1store4.formula1.com/en/" class="store-box">STORE</a>
+    </div>
+
+    <div class="secondary-nav">
+       <div class="container">
+        <a href="index.html" class="back-link">Back</a>
+        </div>
+        <div class="nav-links">
+            <a href="circuits.html">CIRCUITS</a>
+            <a href="schedule.html">SCHEDULE</a>
+            <a href="standings.html" class="active-nav">STANDINGS</a>
+            <a href="teams.html">TEAMS</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="standings-card">
+            <div class="card-title">STANDINGS</div>
+            
+            <div class="tab-container">
+                <div id="tab-drivers" class="tab active" onclick="toggleTable('drivers')">DRIVERS</div>
+                <div id="tab-constructors" class="tab" onclick="toggleTable('constructors')">CONTRUCTORS</div>
+            </div>
+
+            <div id="drivers-table" class="table-container">
+                <div class="table-header">
+                    <span class="col-name">DRIVER</span>
+                    <span class="col-data">POINTS</span>
+                    <span class="col-data">WINS</span>
+                    <span class="col-data">PODIUMS</span>
+                </div>
+                <div class="table-body">
+                    <div class="table-row"><span class="name">G. RUSSEL</span><span class="data">51</span><span class="data">1</span><span class="data">2</span></div>
+                    <div class="table-row"><span class="name">A.K. Antonelli</span><span class="data">47</span><span class="data">1</span><span class="data">2</span></div>
+                    <div class="table-row"><span class="name">C. LECLERC</span><span class="data">34</span><span class="data">0</span><span class="data">1</span></div>
+                    <div class="table-row"><span class="name">L. HAMILTON</span><span class="data">33</span><span class="data">0</span><span class="data">1</span></div>
+                    <div class="table-row"><span class="name">O. BEARMAN</span><span class="data">17</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">L. NORRIS</span><span class="data">15</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">P. GASLY</span><span class="data">9</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">M. VERSTAPPEN</span><span class="data">8</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">L. LAWSON</span><span class="data">8</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">A. LINBLAD</span><span class="data">4</span><span>0</span><span>0</span></div>
+                    <div class="table-row"><span class="name">I. HADJAR</span><span class="data">4</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">O. PIASTRI</span><span class="data">3</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">C. SAINZ JR.</span><span class="data">2</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">G. BORTOLETO</span><span class="data">2</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">F. COLAPINTO</span><span class="data">1</span><span class="data">0</span><span class="data">0</span></div>
+                </div>
+            </div>
+
+            <div id="constructors-table" class="table-container" style="display: none;">
+                <div class="table-header">
+                    <span class="col-name">CONSTRUCTOR</span>
+                    <span class="col-data">POINTS</span>
+                    <span class="col-data">WINS</span>
+                    <span class="col-data">PODIUMS</span>
+                </div>
+                <div class="table-body">
+                    <div class="table-row"><span class="name">Mercedes</span><span class="data">98</span><span class="data">2</span><span class="data">4</span></div>
+                    <div class="table-row"><span class="name">Ferrari</span><span class="data">67</span><span class="data">0</span><span class="data">2</span></div>
+                    <div class="table-row"><span class="name">McLaren</span><span class="data">18</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">Haas</span><span class="data">17</span><span class="data">0</span><span class="data">0</span></div>
+                    <div class="table-row"><span class="name">Red Bull</span><span class="data">12</span><span class="data">0</span><span class="data">0</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <script src="Standing.js"></script>
+</body>
+</html>
